@@ -5,81 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dicecision&reg; &ndash; by MochibagelBaby</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" type="image/svg" href="assets/dice/dice3.svg">
 </head>
 <body>
     <header>
         <h1 class="page-title"><span class="brand-title"><span class="dice-title">Dice</span><span class="ision-title">cision</span></span><span class="registered-trademark">&reg;</span></h1>
-        <!-- <h1>MochibagelBaby&reg;</h1> -->
-        <!-- <h2>PennValley Techworks LLC</h2> -->
-        <button class="refresh-btn">Start!</button>
-        <!-- <div class="refresh-btn">Refresh</div> -->
+        <p style="    font-family: 'Fira Mono', monospace;
+    color: white;
+    color: #d5d5dc;
+    color: #e4e4e9;
+    color: #a2a2af;
+    color: #b5bfe6;
+    color: #6f6f8a;
+    color: #797996;
+    /* color: #888896; */
+    margin: 0 0 1.5rem;
+    margin: 0 0 1.625rem;
+    color: #828298;
+    color: #a8a8c0;
+    /* margin: -0.5rem 0 1.625rem; */
+    font-weight: 500;">Cannot make a decision?<br> Pick a side and <em style="color: #a8a8c0;">roll the dice</em>!</p>
+        <button class="start-btn" onclick="randomizeDice()">Start!</button>
+        <!-- <button class="refresh-btn" onclick="randomizeDice()">Start Rolling!</button> -->
     </header>
 
-    <h2 class="winner-announcement"><span class="curly-braces">{</span><span class="winning-hero">Zombie Zoey</span><span class="curly-braces">}</span> wins this round.</h2>
+    <h2 class="winner-announcement"><span class="curly-braces">{</span><span class="winning-hero">Who???</span><span class="curly-braces">}</span> wins this round.</h2>
 
     <div class="container">
         <div class="hero-field">
             <div class="hero knight">
                 <img  class="hero-image knight-image" src="assets/pixel/knight.svg" alt="Knight image">
                 <h3 class="hero-name knight-name">Knight<span class="white">Doney</span></h3>
-                <img src="assets/dice/dice1.svg" alt="Dice image" class="dice">
+                <img src="assets/dice/dice0.svg" alt="Dice image" class="dice dice-knight">
             </div>
-            <!-- <div class="separator"></div> -->
             <div class="hero zombie">
                 <img class="hero-image zombie-image" src="assets/pixel/zombie.svg" alt="Zombie image">
                 <h3 class="hero-name zombie-name">Zombie<span class="white">Zoey</span></h3>
-                <img src="assets/dice/dice6.svg" alt="Dice image" class="dice">
+                <img src="assets/dice/dice0.svg" alt="Dice image" class="dice dice-zombie">
             </div>
         </div>
     </div>
-    <!-- <img src="assets/img/astrology.jpg" alt=""> -->
 
     <footer>
-        <!-- <p class="author">MochibagelBaby</p> -->
         <img src="assets/pixel/mochidi3.svg" alt="MochiDi" class="mochidi">
         <p class="mochi-company">PennValley Techworks LLC</p>
-        <!-- <p>PennValley Techworks LLC, Pennsylvania, USA</p> -->
-        <!-- <p class="mochi-author">Developed with 
-            <img src="assets/pixel/mochiheart3.svg" alt="" width="17px" style="display: inline-block; margin-bottom: -.2rem;">
-            by <a href="" class="mochi-link">MochibagelBaby</a>
-            </p> -->
         <p class="mochi-author">By <a href="" class="mochi-link">GriffinPixel</a></p>
-        <!-- <p class="mochi-author">By <a href="" class="mochi-link">GriffinPixel Berkley</a></p> -->
-        <!-- <p class="mochi-author">By <a href="" class="mochi-link">Griffinnoch</a></p> -->
-        <!-- <p class="mochi-author">By <a href="" class="mochi-link">MochibagelBaby</a></p> -->
-
-        <!--     <br><br>
-        <p class="mochi-author">By <a href="" class="mochi-link">MochibagelBaby Griffin</a></p>
-        <p class="mochi-author">By <a href="" class="mochi-link">MochibagelBaby GriffinPixel</a></p>
-        <p class="mochi-author">By <a href="" class="mochi-link">MochibagelBaby Griffinnoch</a></p>
-            <br><br> 
-        <p class="mochi-author">By <a href="" class="mochi-link">MochibagelBaby MacKenzie</a></p>
-        <p class="mochi-author">By <a href="" class="mochi-link">MochibagelBaby O’Ceallaigh</a></p>
-        <p class="mochi-author">By <a href="" class="mochi-link">MochibagelBaby Walsh</a></p>
-        <p class="mochi-author">By <a href="" class="mochi-link">MochibagelBaby McCarthy</a></p>
-        <p class="mochi-author">By <a href="" class="mochi-link">MochibagelBaby Gruffudd</a></p>
-        <p class="mochi-author">By <a href="" class="mochi-link">MochibagelBaby GriffinGirl</a></p>
-        <p class="mochi-author">By <a href="" class="mochi-link">MochibagelBaby Buckley</a></p>
-        <p class="mochi-author">By <a href="" class="mochi-link">SOMI</a></p>
-        <p class="mochi-author">By <a href="" class="mochi-link">ZIZI</a></p>
-        <p class="mochi-author">By <a href="" class="mochi-link">MOCHY</a></p>
-        <p class="mochi-author">By <a href="" class="mochi-link">Mackenzie Connelly</a></p>
-        <p class="mochi-author">By <a href="" class="mochi-link">Antoinette Connelly</a></p>
-        <p class="mochi-author">By <a href="" class="mochi-link">Quinn</a></p>
-        <p class="mochi-author">By <a href="" class="mochi-link">PixelQueen</a></p>
-        <p class="mochi-author">By <a href="" class="mochi-link">PixelMaster</a></p>
-        <p class="mochi-author">By <a href="" class="mochi-link">Harmoni</a></p>
-        <p class="mochi-author">By <a href="" class="mochi-link">Hermione</a></p>
-        <p class="mochi-author">By <a href="" class="mochi-link">Berkley</a></p>
-        <p class="mochi-author">By <a href="" class="mochi-link">Ayleen</a></p>
-        <p class="mochi-author">By <a href="" class="mochi-link">Emani</a></p> -->
-        <!-- <img src="assets/pixel/mochidi2.svg" alt="" width="36px" style="display: inline-block; margin-bottom: -.25rem; margin-left: 4px;"> -->
-        <!-- <p class="author">Created with <img src="assets/img/PikPng.com_heart-art-png_5175219.png" alt="" width="17px" style="display: inline-block; margin-bottom: -.2rem;"><img src="assets/img/jedai.png" alt="" width="30px" style="display: inline-block; margin-bottom: -.2rem;"> by MochibagelBaby</p> -->
-        <!-- <p class="author">Created with <img src="assets/img/PikPng.com_heart-art-png_5175219.png" alt="" width="17px" style="display: inline-block; margin-bottom: -.2rem;">&<img src="assets/img/starbucks.png" alt="" width="17px" style="display: inline-block; margin-bottom: -.2rem;">&<img src="assets/img/jedai.png" alt="" width="30px" style="display: inline-block; margin-bottom: -.2rem;"> by MochibagelBaby</p> -->
-        <!-- <p class="author">Created with <img src="assets/img/PikPng.com_heart-art-png_5175219.png" alt="" width="17px" style="display: inline-block; margin-bottom: -.2rem;"> by MochibagelBaby</p> -->
-        <!-- <p class="author">Created with <img src="assets/img/PikPng.com_heart-art-png_5175219.png" alt="" width="17px" style="display: inline-block; margin-bottom: -.2rem;"> by MochibagelBaby</p> -->
     </footer>
+
+    <script src="scripts/index.js"></script>
 </body>
 </html>
