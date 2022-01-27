@@ -26,7 +26,7 @@ function randomizeDice() {
     document.querySelector(".dice-knight").setAttribute("src", "assets/dice/dice" + diceKnight + ".svg");
     document.querySelector(".dice-knight").classList.toggle("rotate360");
 
-    document.querySelector(".dice-zombie").setAttribute("src", "assets/dice/dice_knight" + diceZombie + ".svg");
+    document.querySelector(".dice-zombie").setAttribute("src", "assets/dice/dice_zom" + diceZombie + ".svg");
     document.querySelector(".dice-zombie").classList.toggle("rotate360-reverse");
 
     // ******************** Logs ********************
