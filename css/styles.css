@@ -54,7 +54,7 @@ h1.page-title {
     margin-bottom: -0.75rem;
 }
 
-.ision-title {
+.cision-title {
     background: -webkit-linear-gradient(45deg, #69abff, #b596ff 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -422,5 +422,136 @@ footer p {
 }
 
 /* **************** Media Queries **************** */
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 420px) {
+    /* ********** Header ********** */
+    header {
+        margin-top: 1rem;
+        margin-bottom: 1.625rem;
+        margin-bottom: 1.5rem;
+    }
+    h1.page-title {
+        font-size: 2.75rem;
+        font-size: 2.5rem;
+    }
+    .dice-title {
+        font-size: 2.25rem;
+        font-size: 2rem;
+        margin-bottom: -0.25rem;
+        letter-spacing: -4px;
+    }
+    .cision-title {
+        letter-spacing: -2px;
+    }
+    .registered-trademark {
+        font-size: 1rem;
+        margin-top: 0.5rem;
+        margin-left: 0;
+    }
+    .subtitle {
+        margin: 0 auto 1.25rem;
+        font-size: .75rem;
+        width: 90%;
+    }
+    .start-btn {
+        font-size: 1rem;
+        padding: 0.75rem 2.375rem;
+        font-size: .9375rem;
+        padding: 0.65rem 2.375rem;
+        border-radius: 8px;
+    }
+    .winner-announcement {
+        width: 88%;
+        font-size: .875rem;
+        margin: 0 auto 1.5rem;
+        padding: 0.375rem;
+    }
+    .winning-hero {
+        margin: 0 0.25rem;
+    }
+
+    /* ********** Main ********** */
+    .container {
+        border-radius: 20px;
+        width: 88%;
+    }
+    .hero {
+        padding: 1rem 0.75rem 0.625rem;
+    }
+    .hero:hover h3 {
+        margin-bottom: 0.875rem;
+    }
+    .hero-image {
+        height: 98px;
+        font-size: 1.25em;
+        margin: 0 0 0.625rem;
+    }
+    .hero-name {
+        font-size: .9375rem;
+        margin: 0 0 0.9375rem;
+    }
+    .dice {
+        width: 40%;
+        border-radius: 12px;
+    }
+
+    /* ********** Knight ********** */
+    .knight {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .knight:hover h3 {
+        text-shadow: 1px 2px #e3714b;
+    }
+    .knight:hover .white {
+        text-shadow: 2px 2px #ef863c;
+    }
+
+    /* ********** Zombie ********** */
+    .zombie {
+        border-left: 4px solid #a192bb;
+    }
+    .zombie:hover {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-left: 4px solid #b599af;
+    }
+    .zombie:hover h3 {
+        text-shadow: 1px 2px #7183ff;
+    }
+    .zombie:hover .white {
+        text-shadow: 2px 2px #5e4fcf;
+    }
+
+    /* ********** Footer ********** */
+    footer {
+        margin: 1.125rem 0 1.25rem;
+    }
+    .mochida {
+        width: 44px;
+    }
+    .mochi-company {
+        font-size: .5rem;
+        font-size: .525rem;
+    }
+    .mochi-author {
+        font-size: .75rem;
+    }
+
+    /* ********** Logs ********** */
+    .dice-logs {
+        width: 90%;
+        margin: 0 auto 1.5rem;
+    }
+    .logs {
+        margin: 0 auto 1.125rem;
+    }
+    .log-title {
+        font-size: .825rem;
+    }
+    .log-header th {
+        font-size: .75rem;
+    }
+    .logs td {
+        font-size: .75rem;
+    }
 }
